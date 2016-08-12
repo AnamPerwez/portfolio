@@ -1,0 +1,451 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>My Portfolio</title>
+  <meta charset="utf-8">
+ 
+  <meta name="viewport" content="width=device-width" initial-scale="1">
+
+ <!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+<link href='https://fonts.googleapis.com/css?family=Lobster' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
+<style >
+.navbar-default{
+  background-color: #9932CC;
+  border-color:black;
+  color:#FFFFFF;
+}
+.navbar-default >.navbar-brand{
+  color:white;
+}
+
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:focus {
+  color:#5E2D79;
+  backgorund-color:transparent;
+}
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus {
+  color:#FFFFFF;
+  background-color:#5E2D79;
+}
+.mycolor{
+  color:white;
+}
+.navbar-brand#myheader{
+  color:#5E2D79;
+  padding: 14.5px 15px;
+  font-size: 50px;
+  font-family: 'Lobster', cursive;
+
+}
+.navbar-default .navbar-nav > li > a,
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus{
+  color:white;
+}
+
+#top-head{
+  margin-top:10px;
+}
+body {
+  margin: 0;
+  padding: 0;
+  }
+
+.big-bg {
+  position: absolute;
+  top: 0;
+    background-repeat: no-repeat;
+    margin: 0;
+
+}
+.big {
+  position: relative;
+ 
+    background-repeat: no-repeat;
+    margin: 0;
+
+}
+.mytext{
+text-align: center;
+color:red;
+opacity:0.95;
+position: absolute;
+font-family: 'Lobster', cursive;
+font-size:50px;
+zoom:1;
+color:#5E2D79;
+/*color:#9932CC;*/
+}
+.scroller{
+  opacity: 0.95;
+}
+#wrap{
+  opacity: 0.95;
+}
+#try{
+  opacity:0.95;
+}
+article {
+  text-align: center;
+}
+article h2 {
+  font-size: 4em;
+  font-weight: bold;
+  color: #5fc1d8;
+  line-height: 1em;
+  margin-bottom: 50px;
+}
+
+#first {
+  padding: 80px 0;
+}
+
+#first h2,
+#get-in-touch h2 {
+  text-transform: uppercase;
+  font-size: 3.4em;
+}
+
+#first p {
+  font-style: normal;
+}
+
+#first blockquote {
+  font-size: 1.75em;
+  line-height: 1.2em;
+  font-style: italic;
+  border-top: 1px solid #ddd;
+  padding-top: 60px;
+  margin-top: 60px;
+}
+
+#first blockquote span {
+  font-size: 0.8em;
+  margin-top: 20px;
+  color: #bbb;
+  display: block;
+}
+
+.arrow-up {
+  width: 0; 
+  height: 0; 
+  border-left: 5px solid transparent;
+  border-right: 5px solid transparent;
+  
+  border-bottom: 5px solid black;
+}
+.arrow-down {
+  width: 0; 
+  height: 0; 
+  border-left: 20px solid transparent;
+  border-right: 20px solid transparent;
+  opacity:0.95;
+  border-top: 20px solid #5E2D79;
+}
+
+.arrowhead{
+  padding-left: 720px;
+  padding-top: 245px;
+}
+#nextpage{
+  /*opacity:0.95;*/
+  /*background-image: 'http://cdn1.tnwcdn.com/wp-content/blogs.dir/1/files/2016/04/Computer_Science_2-796x401.jpg';*/
+
+}
+#work{
+ background-color:#E6E6FA;
+width:1598px;
+
+  /*opacity: 0.95;*/
+ 
+}
+#main{
+  background-attachment: fixed;
+  opacity:0.95;
+  margin-top: 10px;
+  height: 800px;
+
+}
+#shopping{
+  font-family: 'Lobster', cursive;
+  font-size: 25px;
+  color:#2F4F4F;
+  padding-left:300px;
+}
+.container form textarea {
+  height:150px;}
+  #button{
+    background-color:#9932CC;
+  }
+ .container#contact{
+    /*background-color:#5E2D79;*/
+  }
+  .form-container{
+    border-style: solid;
+    border-color: #5E2D79;
+    padding:20px;
+    border-radius:10px;
+    /*background-color: black;*/
+
+  }
+/*  #footer {
+   position:absolute;
+   bottom:0;
+   width:100%;
+   height:60px;   /* Height of the footer */
+  /* background:#6cf;
+}*/*/
+/* footer {
+      background-color: red;
+      padding: 25px;
+     opacity: 0.95;
+    }*/
+.images {
+    max-width: 100%;
+    height: auto;
+    }
+
+#circle {
+  width: 50px;
+  height: 50px;
+  background-color: red;
+  -moz-border-radius: 50px;
+  -webkit-border-radius: 50px;
+  border-radius: 50px;
+  opacity: 0.95;
+}
+
+
+</style>
+</head>
+
+
+<body data-spy="scroll" data-target=".navbar" data-offset="50" >
+  <div class=" navbar navbar-default navbar-fixed-top " role="navigation" >
+    <div class="container">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+          <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        </button>
+        <a  class="navbar-brand" id="myheader" href="#">Anam<span class="mycolor"> Perwez</span></a>
+        </div>
+        <div class="collapse navbar-collapse ">
+          <ul class=" nav navbar-nav navbar-right">
+            <li class="active" ><a href="#top-head"><span class="glyphicon glyphicon-home" aria-hidden="true"></span><span>     </span>Home</a></li>
+            <li class="mycolor" ><a href="#main"><span class="glyphicon glyphicon-education" aria-hidden="true"></span><span>     </span>About</a></li>
+          
+            
+           <li style="color:white;"><a href="#work"><span class="glyphicon glyphicon-briefcase" aria-hidden="true"></span><span>     </span>Work</a></li>
+            <li style="color:white;"><a href="#contact"><span class="glyphicon glyphicon-envelope" aria-hidden="true"></span><span>     </span>Contact</a></li>
+         
+          <!--  <li style="color:white;"><a href="#"><span class="glyphicon glyphicon-log-in"></span><span>     </span>Login</a></li> -->
+            </ul>
+      </div>
+    </div>
+    </div>
+  
+    
+    
+ <div id="wrapper" >
+ <header id="top-head" style="height:499px;width:1583px;">
+ <img src="C:\Users\Anam Perwez\Desktop\apple-desk-designer-display-2-1080x780.jpeg" class="img-responsive big-bg "  alt="Background" style="height:800px;width:100%;">
+  </header>
+ <div class="mytext" style="padding-left:530px;padding-top:150px;">
+
+ <marquee><h1 style= "font-family: 'Lobster', cursive;
+font-size:50px;">The Creative Developer...</h1></marquee> 
+
+
+</div>
+
+<div class="arrowhead">
+<!-- <div class="arrow-up"></div> -->
+<!-- <div class="arrow-down"> -->
+<div>
+  <br>
+  <a   class="arrow-down" href="#main" ></a>
+  
+
+<!-- <div class="arrow-left"></div>
+/*<div class="arrow-right"></div>   -->*/     
+</div>
+ 
+</div>
+</div>
+
+<div id="main">
+
+<!-- <p style="padding-top:10px;"><br></p> -->
+
+<!-- <section id="main"> -->
+
+
+<img src="C:\Users\Anam Perwez\Desktop\Computer_Science_2.jpg"  class="img-responsive"  style="height:800px;" >
+<!-- <img src="C:\Users\Anam Perwez\Desktop\Computer_Science_2.jpg"  class="img-responsive"  style="height:800px;" > -->
+
+
+</div>
+<div id="work" style="height:800px; background-color:#E6E6FA;" class="row ">
+<p><br></p>
+<h1 style="color:#2F4F4F;padding-left:700px;padding-top:50px;font-size:50px;font-family:'Lobster', cursive;">My Work</h1>
+<div class="col-lg-6 ">
+<figure>
+<img src="C:\Users\Anam Perwez\Desktop\13472212_10204670258796087_1921310913_n.png"  class="img-responsive big-bg images"  style="height:500px;margin-top:50px;margin-left:100px;border-color: #696969;border-style: solid;border-width:4px;">
+  <figcaption  id="shopping">Online Shopping System</figcaption>
+  </figure>
+  </div>
+  <div class="col-lg-6  ">
+<figure>
+ 
+<img src="C:\Users\Anam Perwez\Desktop\tributepage1.png"  class="img-responsive big-bg images" style="height:500px;border-color: #696969;border-style: solid;border-width:4px;margin-top:50px;">
+<figcaption  id="shopping">Tribute Page</figcaption>
+</figure>
+ </div>
+ </div>
+<!--  <section id="contact">
+ <div class="container" style="height:800px;">
+ <form name="contact-us" method="post" action="anam.aspx" role=form>
+ <input type="text" placeholder="Name" name="first_name" class="form-control" required>
+ <input type="text" placeholder="Email" name="email" class="form-control" required>
+ <textarea placeholder="Message" name="comments" class="form-control"></textarea>
+ <button name="send" type="submit">SEND</button>
+ 
+</form>
+</div>
+</section> -->
+<!-- <table>
+<tr>
+<td> -->
+<div class="container"  id="contact" style="height:800px;margin-left:150px;">
+<br>
+<br>
+<br>
+<br>
+
+<div class="form-container">
+  <h1 style="font-family:'Lobster';margin-top:2px;text-align: center;color:#5E2D79;" ><u>For Contact</u></h1>
+ 
+
+  <h4 >Fill out the form below to learn more:</h4>
+  <form role="form">
+    <div class="form-group">
+      <label for="name">Name:</label>
+      <input type="text" class="form-control" id="Name" placeholder="Enter Name">
+    </div>
+    <div class="form-group">
+      <label for="email" >Email:</label>
+      <input type="text" class="form-control" id="email" placeholder="Enter Email">
+    </div>
+    <div class="form-group">
+    <label for="textarea" >Message:</label>
+    <br>
+    <textarea name="comments" class="form-control" placeholder="Your Message Here" id="textarea" required ></textarea>
+    </div>
+    <button type="submit" class="btn  form-control" id="button" style="color:white">Submit</button>
+  </form>
+
+</div>
+<!-- <div class="row">
+<div class="col-lg-6">
+<h1 style="text-align:center;">Social Accounts</h1>
+</div>
+</div> -->
+<div>
+
+<h1 style="text-align:center;font-family: 'Lobster', cursive;">Social Accounts</h1>
+
+</div>
+<div class="row">
+ <div  class="col-lg-2" style=" margin-top: 20px; width: 75px;
+ margin-left: 450px;
+  height: 75px;
+  background:  #3b5998;
+  -moz-border-radius: 50px;
+  -webkit-border-radius: 50px;
+  border-radius: 50px;"><a href="https://www.facebook.com/anam.perwez1" target="_blank"><i class="fa fa-facebook" style="font-size:48px;padding-top:14px;padding-left:7px;color:white"></a></i></div>
+   <div  class="col-lg-2" style="margin-top:20px;  padding-left: 20px;
+    margin-left: 20px; width: 75px;
+  height: 75px;
+  background: #00aced;
+  -moz-border-radius: 50px;
+  -webkit-border-radius: 50px;
+  border-radius: 50px;"><a href="https://twitter.com/anamperwez15" target="_blank"><i class="fa fa-twitter" style="color:white;padding-top:14px;font-size:48px;"  aria-hidden="true"></a></i></div>
+  <div  class="col-lg-2" style="margin-top:20px;  margin-left: 20px; width: 75px;
+  height: 75px;
+  background: #007bb6;
+  -moz-border-radius: 50px;
+  -webkit-border-radius: 50px;
+  border-radius: 50px;"><a href="https://www.linkedin.com/in/anamperwez15?trk=nav_responsive_tab_profile" target="_blank"><i class="fa fa-linkedin" style="font-size:48px;color:white;padding-top:10px;padding-left:4px;"></a></i></div>
+
+<!-- <div class="footer">
+  <p>Copyright (c) 2016</p>
+</div> -->
+
+
+</div>
+</div>
+<!-- </td>
+ -->
+<!-- <td >
+<tr>
+<div style="width: 50px;
+  height: 50px;
+  background: red;
+  -moz-border-radius: 50px;
+  -webkit-border-radius: 50px;
+  border-radius: 50px;">
+  </div>
+</tr>
+<tr>
+<div style="
+  margin-top: 20px;
+  width: 50px;
+  height: 50px;
+  background: red;
+  -moz-border-radius: 50px;
+  -webkit-border-radius: 50px;
+  border-radius: 50px;">
+  </div>
+</tr>
+<tr>
+<div style="width: 50px;
+  height: 50px;
+  background: red;
+  -moz-border-radius: 50px;
+  -webkit-border-radius: 50px;
+  border-radius: 50px;">
+  </div>
+</tr>
+</td> -->
+<!-- </tr>
+</table> -->
+
+
+
+<footer  style="background-color:#9932CC;color:white;padding-top:15px;margin:10px;height:40px;" >
+
+
+
+  <p style="text-align:center;opacity:0.95;"><strong>Copyright (c) 2016.All Rights Reserved</strong></p>
+
+  </footer>
+
+
+
+
+</body>
+</html>
